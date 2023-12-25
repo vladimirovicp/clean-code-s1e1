@@ -56,7 +56,7 @@ header .container .more-inf {
   flex-grow: 1;
 }
 
-.add-task__wrapper {
+.task__add-wrapper {
   display: flex;
   margin-top: 20px;
 }
@@ -173,7 +173,9 @@ ul li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode input[type=text],
+.edit-mode ul li input[type=text]
+{
   display: inline-block;
   width: 224px;
 }
